@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <title> Jeff Zhang's Portfolio </title>
+      <link rel="stylesheet" type="text/css" href="index.css"/>
+      <link rel="icon" href="images/icon.png"/>
+      <script async src="script.js"></script> <!-- async allows CSS animations to work -->
+  </head>
+
+  <body>
+    <h1 id="header"> <b> Jeff Zhang's Portfolio </b> </h1>
+    <p id="headerDesc"> "Not all who wander are lost." ~ J.R.R. Tolkien </p>
+
+    <div class="flexContainer">
+      <div id="infoBox">
+        <div class="row" id="artwork">
+          <span onClick="artLink()"> Artwork </span>
+        </div>
+
+        <div class="row" id="photography">
+          <span onClick="photoLink()"> Photography </span>
+        </div>
+
+        <div class="row" id="deviantArt">
+          <span onClick="devArtLink()"> DeviantArt </span>
+        </div>
+
+        <div class="row" id="instagram">
+          <span onClick="instaLink()"> Instagram </span>
+        </div>
+
+        <div class="row" id="email" onClick="emailFunction()">
+          <span><a href="mailto:jz1766a@student.american.edu"> Email </a></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="aboutMe">
+      <p>
+        <img id="portraitJeff" onClick="myFunction()" src="https://i.imgur.com/Da2KGUN.jpg" alt="Jeff"/>
+        <span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Greetings! My name is Jeff Zhang. I'm currently
+          a sophomore at the American University in Washington, DC, studying computer science.
+          I was born in Vancouver, Canada on March 3, 2000, where I lived there till
+          I was seven. Since then, my family resides in the town of Lexington, near Boston, MA.
+        </span>
+        <span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Ever since I was a child, I've loved drawing; from my childhood heros like
+          Batman to my own characters, I drew to express my imagination. Nowadays,
+          I mostly just draw for leisure and when I have the time, but when I do,
+          I can spend hours upon hours just trying to perfect the little details on
+          my work.
+        </span>
+        <span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Like drawing, I started doing photography at a young age, but it wasn't until
+          I was 15 I started taking it seriously. Using my dad's Nikon DSLR camera,
+          I took nearly every photograph during family vacations, and when time permitted,
+          doing portrait and scenenic photo shoots with my friends or just on my own.
+          In the future, I will buy my own camera so that I can still do photography
+          when I'm not back home with access to my dad's camera :)
+        </span>
+        <span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Feel free to explore! Check out my DeviantArt and Instagram
+          (links in the navigation bar) for more art and photos not shown here. Also, more things
+          will be added over time.
+        </span>
+        <span id="demo">
+          Click image for image URL
+        </span> <!-- JavaScript to display portrait url -->
+      </p>
+    </div>
+
+    <footer id="indexFooter">
+      <span>
+        Background image <a id="bckSrc" href="https://unsplash.com/photos/l7Wb6FXHIOQ">source</a>
+      </span>
+    </footer>
+
+    <div id="Validators"> <!-- Validators. The class "Style" makes the icons semi-transparent -->
+      <a href="https://validator.w3.org/#validate_by_upload"> <p class="Style"> <img src="./images/w3c-html.png" alt="Valid HTML5" /></p></a>
+      <a href="https://jigsaw.w3.org/css-validator/#validate_by_upload"> <p class="Style"> <img src="./images/w3c-css.png" alt="Valid CSS" /></p></a>
+    </div>
+
+  </body>
+
+</html>

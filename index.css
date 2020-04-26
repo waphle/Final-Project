@@ -1,0 +1,244 @@
+/***** index.html CSS *****/
+@font-face {
+  font-family: "ETH";
+  src: url("fonts/eth/ETH.ttf");
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("fonts/josefin-sans/JosefinSans-Regular");
+}
+
+body {
+  background-image: url("images/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#header
+{
+  font-family: "ETH";
+  color: black;
+  font-size: 35pt;
+  text-align: center;
+}
+
+#headerDesc {
+  font-family: "Josefin Sans";
+  text-align: center;
+  font-size: 12pt;
+}
+
+#home {
+  flex: 1;
+}
+
+#artwork {
+  flex: 1;
+}
+
+#photography {
+  flex: 1;
+}
+
+#email {
+  flex: 1;
+}
+
+#instagram {
+  flex: 1;
+}
+
+#deviantArt {
+  flex: 1;
+}
+
+#infoBox {
+  display: flex;
+}
+
+.row {
+  padding: 5px;
+}
+
+.row span {
+  transition-duration: 0.7s;
+}
+
+.row:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.flexContainer span{
+  padding: 10px;
+  margin: auto;
+  width: 200px;
+  height: 110px;
+  align-items: center;
+  text-align: center;
+  font-family: "Josefin Sans";
+  color: #0121B8;
+  font-size: 20pt;
+}
+
+.aboutMe {
+  display: block;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  transition-duration: 0.7s;
+}
+
+.aboutMe img { /* Portrait of me */
+  float: left;
+  vertical-align: middle;
+  padding-right: 10px;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.aboutMe img:hover {
+  filter: brightness(80%);
+  cursor: pointer;
+  display: block;
+}
+
+.aboutMe span { /* Desc. box about me */
+  display: block;
+  text-align: left;
+  font-family: "Josefin Sans";
+  font-size: 11.5pt;
+  color: #E8DFDC;
+}
+
+#demo {
+  display: block;
+  margin-top: 10px;
+  font-family: "Josefin Sans";
+  font-size: 8pt;
+  color: #E8DFDC;
+}
+
+
+#indexFooter {
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 10pt;
+}
+
+#bckSrc {
+  color: #0BFFF9;
+}
+
+#Validators {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.Style {
+  opacity: 0.5;
+}
+
+
+/********** art.html CSS **********/
+#header {
+  font-family: "ETH";
+  color: black;
+  font-size: 35pt;
+  text-align: center;
+}
+
+.flexGallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.gallery {
+  flex: 33.33%;
+  padding: 50px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  transition-duration: 0.7s;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  font-family: "Josefin Sans";
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/********** photography.html CSS **********/
+#header {
+  font-family: "ETH";
+  color: black;
+  font-size: 35pt;
+  text-align: center;
+}
+
+.flexGallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.gallery {
+  flex: 33.33%;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  transition-duration: 0.7s;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  font-family: "Josefin Sans";
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
