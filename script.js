@@ -25,4 +25,3 @@ function devArtLink() {
 function instaLink() {
   location.replace("https://www.instagram.com/jeffzhang._.photography/?hl=en")
 }
-}
