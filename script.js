@@ -13,11 +13,11 @@ function emailFunction() {
 function homeLink() {
   location.replace("index.html")
 }
-function artLink() {
-  location.replace("art.html")
+function tutorialLink() {
+  location.replace("tutorials.html")
 }
-function photoLink() {
-  location.replace("photography.html")
+function testimonialsLink() {
+  location.replace("testimonials.html")
 }
 function devArtLink() {
   location.replace("https://www.deviantart.com/waphlebruv")

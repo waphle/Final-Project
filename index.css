@@ -17,8 +17,7 @@ body {
   background-size: cover;
 }
 
-#header
-{
+#header {
   font-family: "ETH";
   color: white !important;
   font-size: 35pt;
@@ -36,11 +35,11 @@ body {
   flex: 1;
 }
 
-#artwork {
+#tutorials {
   flex: 1;
 }
 
-#photography {
+#testimonials {
   flex: 1;
 }
 
@@ -83,7 +82,7 @@ body {
 .flexContainer span{
   padding: 10px;
   margin: auto;
-  width: 200px;
+  width: 150px;
   height: 110px;
   align-items: center;
   text-align: center;
