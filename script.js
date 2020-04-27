@@ -1,8 +1,8 @@
-// Portrait url
-function myFunction() {
-  var x = document.getElementById("mainPageImg").src;
-  document.getElementById("demo").innerHTML = x;
-}
+// // Portrait url
+// function myFunction() {
+//   var x = document.getElementById("mainPageImg").src;
+//   document.getElementById("demo").innerHTML = x;
+// }
 
 // Timer alert message for email
 function emailFunction() {
