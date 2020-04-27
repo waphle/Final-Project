@@ -103,7 +103,7 @@ body {
   transition-duration: 0.7s;
 }
 
-.aboutMe img { /* Portrait of me */
+.aboutMe img { /* Main page image */
   float: left;
   vertical-align: middle;
   padding-right: 10px;

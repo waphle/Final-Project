@@ -1,6 +1,6 @@
 // Portrait url
 function myFunction() {
-  var x = document.getElementById("portraitJeff").src;
+  var x = document.getElementById("mainPageImg").src;
   document.getElementById("demo").innerHTML = x;
 }
 
