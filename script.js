@@ -4,10 +4,10 @@
 //   document.getElementById("demo").innerHTML = x;
 // }
 
-// Timer alert message for email
-function emailFunction() {
-  setTimeout(function(){ alert('To copy my email address, left click the link and choose "Copy email address."'); }, 2000); // 2000 equals to 2 seconds
-}
+// // Timer alert message for email
+// function emailFunction() {
+//   setTimeout(function(){ alert('To copy my email address, left click the link and choose "Copy email address."'); }, 2000); // 2000 equals to 2 seconds
+// }
 
 // HTML Linking functions
 function homeLink() {
