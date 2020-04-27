@@ -19,9 +19,9 @@ function tutorialLink() {
 function testimonialsLink() {
   location.replace("testimonials.html")
 }
-function devArtLink() {
-  location.replace("https://www.deviantart.com/waphlebruv")
+function signinLink() {
+  location.replace("signin.html")
 }
-function instaLink() {
-  location.replace("https://www.instagram.com/jeffzhang._.photography/?hl=en")
+function contactLink() {
+  location.replace("contact.html")
 }
