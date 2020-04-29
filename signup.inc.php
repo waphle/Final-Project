@@ -95,8 +95,20 @@ if (isset($_POST['signup-submit'])){
 					exit();
 					
 				}
-					
 			}
 		}
 	}
+	
+	mysqli_stmt_close($statement);
+	
+	mysqli_close($conn);
+	
+}
+
+else {
+
+	header("Location: signup.php");
+
+	exit();
+
 }
