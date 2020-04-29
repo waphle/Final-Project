@@ -163,7 +163,7 @@ body {
 }
 
 
-/********** art.html CSS **********/
+/********** tutorials.html CSS **********/
 #header {
   font-family: "ETH";
   color: black;
@@ -171,21 +171,49 @@ body {
   text-align: center;
 }
 
-.flexGallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-.gallery {
-  flex: 33.33%;
-  padding: 50px;
-  margin-top: 20px;
+.tutorials {
+  display: block;
+  margin-top: 45px;
   margin-left: auto;
   margin-right: auto;
-  width: 180px;
+  width: 800px;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
   transition-duration: 0.7s;
+}
+
+.tutorials img { /* Main page image */
+  float: left;
+  vertical-align: middle;
+  padding-right: 10px;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+
+}
+
+.tutorials img:hover {
+  filter: brightness(80%);
+  cursor: pointer;
+  display: block;
+}
+
+.tutorials span { /* Desc. box about me */
+  display: block;
+  text-align: left;
+  font-family: "Josefin Sans";
+  font-size: 11.5pt;
+  color: #E8DFDC;
+
+}
+
+/********** photography.html CSS **********/
+#header {
+  font-family: "ETH";
+  color: black;
+  font-size: 35pt;
+  text-align: center;
 }
 
 .testimonials {
@@ -210,7 +238,7 @@ body {
 
 }
 
-.testimonials img:hover {
+.testimonialsimg:hover {
   filter: brightness(80%);
   cursor: pointer;
   display: block;
@@ -223,45 +251,4 @@ body {
   font-size: 11.5pt;
   color: #E8DFDC;
 
-}
-
-/********** photography.html CSS **********/
-#header {
-  font-family: "ETH";
-  color: black;
-  font-size: 35pt;
-  text-align: center;
-}
-
-.flexGallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-.gallery {
-  flex: 33.33%;
-  padding: 20px;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 180px;
-  transition-duration: 0.7s;
-}
-
-.gallery:hover {
-  border: 1px solid #777;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-.description {
-  font-family: "Josefin Sans";
-  padding: 10px;
-  text-align: center;
-  color: white;
 }
