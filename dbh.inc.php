@@ -3,7 +3,7 @@
 
 $servername = "localhost";
 $dBUsername = "root";
-$dBPassword = "";
+$dBPassword = "mysql";
 $dBName = "finalloginsystem";
 
 $conn = mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
