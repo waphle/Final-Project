@@ -56,11 +56,11 @@
 		<?php 
 		if(isset($_SESSION['id'])){
 		
-			echo '<form action="logout.inc.php" method="post"><button type="submit" name="logout-submit">Logout</button></form>';
+			echo '<div class="logout"><form action="logout.inc.php" method="post"><button type="submit" name="logout-submit">Logout</button></form></div>';
 		
 		}else {
 		
-			echo '<form action="login.inc.php" method="post"><input type="text" name="emailUsername" placeholder="Username/E-mail..."><input type="password" name="password" placeholder="Password"><button type="submit" name="login-submit">Login</button></form>;<a href="signup.php">Signup</a>';
+			echo '<div class="login"><form action="login.inc.php" method="post"><input type="text" name="emailUsername" placeholder="Username/E-mail..."><input type="password" name="password" placeholder="Password"><button type="submit" name="login-submit">Login</button></form>;<a href="signup.php">Signup</a></div>';
 		
 		}
 		?>
