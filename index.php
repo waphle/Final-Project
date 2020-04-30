@@ -19,7 +19,9 @@
 
 			if(isset($_SESSION["id"])){
 
-				echo "<p> $_SESSION["id"] Logged In</p>" ;
+				$username = $_SESSION["Username"]; 
+
+				echo  "$username <p>Logged In</p>" ;
 
 			}
 			else {
