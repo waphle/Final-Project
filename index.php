@@ -14,6 +14,21 @@
   </head>
 
   <body>
+	
+	<?php
+
+			if(isset($_SESSION["id"])){
+
+				echo "<p> Logged In</p>" ;
+
+			}
+			else {
+
+				echo "<p> Not Logged In </p>";
+
+			}
+	?>
+  
     <h1 id="header"> <b> Epic Gaming Tutorials </b> </h1>
     <p id="headerDesc"> GG no re knob </p>
 
