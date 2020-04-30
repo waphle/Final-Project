@@ -19,7 +19,7 @@
 
 			if(isset($_SESSION["id"])){
 
-				echo "<p> Logged In</p>" ;
+				echo "<p> $_SESSION["id"] Logged In</p>" ;
 
 			}
 			else {
