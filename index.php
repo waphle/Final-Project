@@ -2,8 +2,8 @@
 	session_start();
 ?>
 <?php
-$signup = $_GET['signup'];
-else if ($signup=="success"){
+$login = $_GET['login'];
+else if ($login=="success"){
 
 	echo "<script type='text/javascript'>alert('Account Made');</script>";
 
