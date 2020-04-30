@@ -20,12 +20,12 @@
 
 				$username = $_SESSION["Username"];
 
-				echo  "<div class="login">$username <p>Logged In</p></div>" ;
+				echo  "<div class='login'>$username <p>Logged In</p></div>";
 
 			}
 			else {
 
-				echo "<div class="login"><p> Not Logged In </p></div>";
+				echo "<div class='login'><p> Not Logged In </p></div>";
 
 			}
 	?>
