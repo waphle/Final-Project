@@ -3,7 +3,7 @@
 ?>
 <?php
 $login = $_GET['login'];
-else if ($login=="success"){
+if ($login=="success"){
 
 	echo "<script type='text/javascript'>alert('Account Made');</script>";
 
