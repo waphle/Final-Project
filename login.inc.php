@@ -1,7 +1,5 @@
 <?php
 
-
-
 require 'dbh.inc.php';
 
 $emailUsername = $_POST["emailUsername"];
