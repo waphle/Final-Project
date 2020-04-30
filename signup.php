@@ -76,11 +76,14 @@ else if ($signup=="success"){
       </div>
     </div>
 
-		<form action="signup.inc.php" method="post">
-			<input type="text" name="username" placeholder="Username">
-			<input type="text" name="email" placeholder="E-mail">
-			<input type="password" name="password" placeholder="Password">
-			<button type="submit" name="signup">Signup</button>
-		</form>
+		<div class="signupForm">
+			<form action="signup.inc.php" method="post">
+				<input type="text" name="username" placeholder="Username">
+				<input type="text" name="email" placeholder="E-mail">
+				<input type="password" name="password" placeholder="Password">
+				<button id = "signupButton" type="submit" name="signup">Sign up!</button>
+			</form>
+			<a id = "backButton" href="signin.php"> Back </a>
+		</div>
 	</body>
 </html>

@@ -226,6 +226,7 @@ a:active{
 
 }
 
+
 /********** testimonials.php CSS **********/
 #header {
   font-family: "ETH";
@@ -301,6 +302,8 @@ a:active{
 .hidden {
 	display: none;
 }
+
+
 /********** login CSS **********/
 .logout	{
 	align-items: center;
@@ -315,23 +318,56 @@ a:active{
 
 }
 
+
 /********** signin.php CSS **********/
-.signinAbout {
+.signinForm {
   display: block;
-  margin-top: 50px;
+  margin-top: 45px;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  margin-bottom: 80px;
+  width: auto;
   position: relative;
   overflow: hidden;
-  align-items: center;
+  text-align: center;
   transition-duration: 0.7s;
 }
 
-.signinAbout span {
+
+/********** signup.php CSS **********/
+.signupForm {
   display: block;
-  text-align: left;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
   font-family: "Josefin Sans";
-  font-size: 11.5pt;
-  color: #E8DFDC;
+  font-size: 15pt;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+
+#signupButton {
+  background-color: #2A9FB5;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: auto;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 15pt;
+  cursor: pointer;
+}
+
+#signupButton:hover {
+  filter: brightness(120%);
+  cursor: pointer;
+  display: inline-block;
 }

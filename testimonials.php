@@ -56,7 +56,7 @@
       <p id="1">
         <img id="tyler" src="images/Tyler1.png" alt="tyler"/>
         <span>
-          &nbsp;&nbsp;&nbsp;&nbsp;Tyler1: "Wow! This website is amazing! As a Twitch streamer,
+          &nbsp;&nbsp;&nbsp;&nbsp;<b>Tyler1</b>: "Wow! This website is amazing! As a Twitch streamer,
 					my job is to play games for the viewers' entertainment. Sometimes I get stumped
 					on a certain level of a game, and I end up raging like a big baby (it's all an
 					act though haha). With this website, I'm able to show off my pro-gamer moves
@@ -76,7 +76,7 @@
 		<p class="hidden" id="2">
         <img id="jerma" src="images/Jerma.png" alt="jerma"/>
 				<span>
-          &nbsp;&nbsp;&nbsp;&nbsp;Jerma985: "You know, don't say swears. It's polite. Just like
+          &nbsp;&nbsp;&nbsp;&nbsp;<b>Jerma985</b>: "You know, don't say swears. It's polite. Just like
 					how polite the owners of this website are to me and other gamers seeking help.
 					When I first found out about this website, I was just a smol compact Twitch
 					streamer nobody. After learning about the tips on here, I now can't even
@@ -96,7 +96,7 @@
 		<p class="hidden" id="3">
         <img id="ninja" src="images/Ninja.png" alt="ninja"/>
 				<span>
-          &nbsp;&nbsp;&nbsp;&nbsp;Ninja (gamer): "The f**k you say to me you little s**t? ahahahahahahah
+          &nbsp;&nbsp;&nbsp;&nbsp;<b>Ninja (gamer)</b>: "The f**k you say to me you little s**t? ahahahahahahah
 					how are you not in f*****g school? You kiss your mother with that mouth?
 					It's called you kiss your mother with that f*****g mouth? Huh? Huh? ahhahahahaha,
 					because the youth of ahahhdgsjgda you shut up when im talking to
