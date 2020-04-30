@@ -14,3 +14,6 @@ function signinLink() {
 function contactLink() {
   location.replace("contact.php")
 }
+window.onload = function() {
+		$("next").onclick = questionOrAnswer;
+	};
