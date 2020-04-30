@@ -117,11 +117,6 @@ a:active{
   overflow: hidden;
   align-items: center;
   transition-duration: 0.7s;
-
-  /* background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
-  border-radius: 40px; */
 }
 
 .aboutMe img { /* Main page image */
@@ -197,10 +192,15 @@ a:active{
   transition-duration: 0.7s;
 }
 
+.tutorials p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .tutorials img {
   float: left;
   vertical-align: middle;
-  padding-right: 10px;
+  padding-right: 15px;
   width: 250px;
   height: 250px;
   border-radius: 50px;
@@ -208,7 +208,7 @@ a:active{
 }
 
 .tutorials img:hover {
-  filter: brightness(80%);
+  filter: brightness(65%);
   cursor: pointer;
   display: block;
   transition: .3s ease;
