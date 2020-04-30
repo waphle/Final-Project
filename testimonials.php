@@ -45,7 +45,7 @@
         </div>
 
         <div class="row" id="signin">
-          <span onClick="signinLink()"> Sign-in/up </span>
+          <span onClick="signinLink()"> Members </span>
         </div>
 
       </div>

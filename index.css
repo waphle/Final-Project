@@ -274,7 +274,6 @@ a:active{
   font-family: "Josefin Sans";
   font-size: 11.5pt;
   color: #E8DFDC;
-
 }
 
 #nextButton {
@@ -330,7 +329,29 @@ a:active{
   position: relative;
   overflow: hidden;
   text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 15pt;
   transition-duration: 0.7s;
+}
+
+.signinAbout {
+  display: block;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  transition-duration: 0.7s;
+}
+
+.signinAbout span {
+  display: block;
+  text-align: left;
+  font-family: "Josefin Sans";
+  font-size: 13pt;
+  color: #E8DFDC;
 }
 
 
@@ -348,6 +369,26 @@ a:active{
   font-size: 15pt;
   transition-duration: 0.7s;
   cursor: pointer;
+}
+
+.signupAbout {
+  display: block;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  transition-duration: 0.7s;
+}
+
+.signupAbout span {
+  display: block;
+  text-align: left;
+  font-family: "Josefin Sans";
+  font-size: 13pt;
+  color: #E8DFDC;
 }
 
 #signupButton {

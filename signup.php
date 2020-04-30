@@ -52,7 +52,7 @@ else if ($signup=="success"){
 	</head>
 
 	<body>
-		<h1 id="header"> Signup</h1>
+		<h1 id="header"> Sign-up< /h1>
 		<p id="headerDesc"> Sign-up here boi. </p>
 
     <div class="flexContainer">
@@ -70,11 +70,21 @@ else if ($signup=="success"){
         </div>
 
 				<div class="row" id="signin">
-          <span onClick="signinLink()"> Sign-in/up </span>
+          <span onClick="signinLink()"> Members </span>
         </div>
 
       </div>
     </div>
+
+		<div class="signupAbout">
+			<span>
+				&nbsp;&nbsp;&nbsp;&nbsp;Want exclusive perks as a member? Want to show off how
+				badass of a gamer you are? Then join us today! It's absolutely free too! Members get to
+				receive monthly spam emails about donations for the owners' failing CS:GO crate
+				gambling business, new tutorials up to one week earlier than non-members, and
+				even bi-monthly raffles!
+			</span>
+		</div>
 
 		<div class="signupForm">
 			<form action="signup.inc.php" method="post">

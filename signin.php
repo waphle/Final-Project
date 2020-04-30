@@ -7,9 +7,9 @@ $error = $_GET['error'];
 $login = $_GET['login'];
 
 if ($error=="emptyfields"){
-	
+
 	echo "<script type='text/javascript'>alert('Empty Fields');</script>";
-	
+
 }
 else if ($error=="wrongpassword"){
 
@@ -38,7 +38,7 @@ else if ($login=="success"){
 
   <head>
     <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
-      <title> User Sign-in/up | Epic Gaming Tutorials </title>
+      <title> Members | Epic Gaming Tutorials </title>
       <link rel="stylesheet" type="text/css" href="index.css"/>
       <link rel="icon" href="images/icon.png"/>
       <script async src="script.js"></script>
@@ -61,8 +61,8 @@ else if ($login=="success"){
 			}
 	?>
 
-    <h1 id="header"> <b> Sign-in/up </b> </h1>
-    <p id="headerDesc"> Join us today! </p>
+    <h1 id="header"> <b> Members </b> </h1>
+    <p id="headerDesc"> Sign-in here! </p>
 
     <div class="flexContainer">
       <div id="infoBox">
@@ -78,23 +78,27 @@ else if ($login=="success"){
           <span onClick="testimonialsLink()"> Testimonials </span>
         </div>
 
-        <div class="row" id="contact">
-          <span onClick="contactLink()"> Contact </span>
-        </div>
-
       </div>
     </div>
+
+		<div class="signinAbout">
+			<span>
+				&nbsp;&nbsp;&nbsp;&nbsp;Welcome back gamers! Oh, if you're new here, why not
+				<a href="signup.php">join us?</a> :)
+			</span>
+		</div>
+
 	<div class="signinForm">
-	
-		<?php 
+
+		<?php
 		if(isset($_SESSION['id'])){
-		
+
 			echo '<div class="logout"><form action="logout.inc.php" method="post"><button type="submit" name="logout-submit">Logout</button></form></div>';
-		
+
 		}else {
-		
-			echo '<div class="login"><form action="login.inc.php" method="post"><input type="text" name="emailUsername" placeholder="Username/E-mail..."><input type="password" name="password" placeholder="Password"><button type="submit" name="login-submit">Login</button></form><a href="signup.php">Signup</a></div>';
-		
+
+			echo '<div class="login"><form action="login.inc.php" method="post"><input type="text" name="emailUsername" placeholder="Username/E-mail..."><input type="password" name="password" placeholder="Password"><button type="submit" name="login-submit">Login</button></form>';
+
 		}
 		?>
 
