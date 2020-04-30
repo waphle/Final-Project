@@ -1,15 +1,14 @@
 <?php
 
-if (isset($_POST['signup-submit'])){
+if (isset($_POST['signup'])){
 	
 	require 'dbh.inc.php';
 	
 	$username = $_POST['username'];
 	$email = $_POST['email'];
 	$password = $_POST['password'];
-	$passwordcopy = $_POST['password-repeat'];
 	
-	if (empty($username) || empty($email) || empty($password) || empty($passwordcopy)){
+	if (empty($username) || empty($email) || empty($password)){
 		
 		header("Location: signup.php?error=emptyfields&username=".$username."&email=".$email);
 
@@ -36,14 +35,7 @@ if (isset($_POST['signup-submit'])){
 
 		exit();
 	
-	}
-	else if ($password !== $passwordcopy) {
-	
-		header("Location: signup.php?error=password&username=".$username."email=".$email);
-
-		exit();
-	
-	} else {
+	}else {
 	
 		$sql = "SELECT UsernameUsers FROM users WHERE UsernameUsers=?";
 		
