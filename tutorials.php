@@ -14,7 +14,7 @@
   </head>
 
   <body>
-  
+
 	<?php
 
 			if(isset($_SESSION["id"])){
@@ -28,7 +28,7 @@
 
 			}
 	?>
-  
+
     <h1 id="header"> <b> Tutorials </b> </h1>
     <p id="headerDesc"> Here you will find tutorials for games, old and new! </p>
 
@@ -122,7 +122,7 @@
            worldly force determined to capture her and use her powers.
         </span>
         <span>
-          &nbsp;&nbsp;&nbsp;&nbsp;Players battlethe game's many dangers with weapons
+          &nbsp;&nbsp;&nbsp;&nbsp;Players battle the game's many dangers with weapons
           and magic, interact with non-player characters, and complete main-story
           and side quests to acquire experience points and gold, which are used to
           increase Geralt's abilities and purchase equipment. Its central story has
@@ -132,6 +132,33 @@
           &nbsp;&nbsp;&nbsp;&nbsp;The game received critical acclaim, with praise for
           its gameplay, narrative, world design, combat, and visuals, although it received
           minor criticism due to technical issues.
+        </span>
+      </p>
+			<p id="tf2">
+        <a href="https://store.steampowered.com/app/440/Team_Fortress_2/">
+          <img id="tf2Image" src="images/TeamFortress2.png" alt="tf2Image"/>
+        </a>
+        <span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Team Fortress 2 is a multiplayer first-person shooter
+					game developed and published by Valve. It is the sequel to the 1996 mod Team
+					Fortress for Quake and its 1999 remake, Team Fortress Classic. The player
+					can join one of two teams, RED or BLU, and choose one of 9 character classes
+					to battle in game modes such as capture the flag and king of the hill.
+					Team Fortress 2 received critical acclaim for its art direction, gameplay,
+					humor, and use of character in a multiplayer-only game.
+        </span>
+        <span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Team Fortress 2 is known for its high learning-curve
+					and near endless number of playstyles for each of the nine classes. From rocket
+					and sticky jumping as the Soldier and Demoman, respectively, to strafing around
+					as the Scout, one must spend hours perfecting their skills. The game heavily
+					rewards you when you land a hit, and punishes you for missing. It's very
+					"hit or miss."
+        </span>
+        <span>
+          &nbsp;&nbsp;&nbsp;&nbsp;The game is also known for its community-made mods
+					and content, as shown in its
+					<a href = "https://steamcommunity.com/app/440/workshop/">Steam Workshop page</a>.
         </span>
       </p>
     </div>

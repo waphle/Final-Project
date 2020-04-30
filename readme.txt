@@ -10,3 +10,4 @@ For the tutorial page, we cited Wikipedia for the games' descriptions.
 PONG: https://en.wikipedia.org/wiki/Pong
 DOOM Eternal: https://en.wikipedia.org/wiki/Doom_Eternal
 The Witcher 3: https://en.wikipedia.org/wiki/The_Witcher_3:_Wild_Hunt
+TF2: https://en.wikipedia.org/wiki/Team_Fortress_2
