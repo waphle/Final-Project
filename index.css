@@ -267,3 +267,17 @@ a:active{
   color: #E8DFDC;
 
 }
+
+.logout	{
+	
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.login	{
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
