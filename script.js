@@ -1,16 +1,16 @@
 // HTML Linking functions
 function homeLink() {
-  location.replace("index.html")
+  location.replace("index.php")
 }
 function tutorialLink() {
-  location.replace("tutorials.html")
+  location.replace("tutorials.php")
 }
 function testimonialsLink() {
-  location.replace("testimonials.html")
+  location.replace("testimonials.php")
 }
 function signinLink() {
   location.replace("signin.php")
 }
 function contactLink() {
-  location.replace("contact.html")
+  location.replace("contact.php")
 }
