@@ -48,10 +48,6 @@
           <span onClick="signinLink()"> Sign-in/up </span>
         </div>
 
-        <div class="row" id="contact">
-          <span onClick="contactLink()"> Contact </span>
-        </div>
-
       </div>
     </div>
 
