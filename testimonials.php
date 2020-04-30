@@ -30,7 +30,7 @@
 	?>
 
     <h1 id="header"> <b> Testimonials </b> </h1>
-    <p id="headerDesc"> Testimonials from users like you! </p>
+    <p id="headerDesc"> Songs of praise from users like you! </p>
 
     <div class="flexContainer">
       <div id="infoBox">
@@ -70,6 +70,62 @@
 
 			<p>
         <img id="jerma" src="images/Jerma.png" alt="jerma"/>
+				<span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
+					nam no. Ad mei oportere complectitur, est semper regione ea, cu his labore
+					 tacimates maiestatis. No vide mollis sea, ne has elit eligendi explicari.
+					 Est phaedrum quaerendum ei, solet vulputate ex ius, qui blandit perfecto
+					 consetetur et. Et modo stet facete mei, suas affert legere ne usu. Has eu
+					 sint instructior. Labore aliquip sed ea. Id mollis euismod invenire sit,
+					 semper aperiam ad usu. Duo unum impedit legendos ad, vel impetus molestiae
+					 in. Eos consetetur disputando ut, in nibh mazim conceptam qui.
+        </span>
+      </p>
+
+			<p>
+        <img id="ninja" src="images/Ninja.png" alt="ninja"/>
+				<span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
+					nam no. Ad mei oportere complectitur, est semper regione ea, cu his labore
+					 tacimates maiestatis. No vide mollis sea, ne has elit eligendi explicari.
+					 Est phaedrum quaerendum ei, solet vulputate ex ius, qui blandit perfecto
+					 consetetur et. Et modo stet facete mei, suas affert legere ne usu. Has eu
+					 sint instructior. Labore aliquip sed ea. Id mollis euismod invenire sit,
+					 semper aperiam ad usu. Duo unum impedit legendos ad, vel impetus molestiae
+					 in. Eos consetetur disputando ut, in nibh mazim conceptam qui.
+        </span>
+      </p>
+
+			<p>
+        <img id="overwatch" src="images/Overwatch.png" alt="overwatch"/>
+				<span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
+					nam no. Ad mei oportere complectitur, est semper regione ea, cu his labore
+					 tacimates maiestatis. No vide mollis sea, ne has elit eligendi explicari.
+					 Est phaedrum quaerendum ei, solet vulputate ex ius, qui blandit perfecto
+					 consetetur et. Et modo stet facete mei, suas affert legere ne usu. Has eu
+					 sint instructior. Labore aliquip sed ea. Id mollis euismod invenire sit,
+					 semper aperiam ad usu. Duo unum impedit legendos ad, vel impetus molestiae
+					 in. Eos consetetur disputando ut, in nibh mazim conceptam qui.
+        </span>
+      </p>
+
+			<p>
+        <img id="vsauce" src="images/VSauce.png" alt="vsauce"/>
+				<span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
+					nam no. Ad mei oportere complectitur, est semper regione ea, cu his labore
+					 tacimates maiestatis. No vide mollis sea, ne has elit eligendi explicari.
+					 Est phaedrum quaerendum ei, solet vulputate ex ius, qui blandit perfecto
+					 consetetur et. Et modo stet facete mei, suas affert legere ne usu. Has eu
+					 sint instructior. Labore aliquip sed ea. Id mollis euismod invenire sit,
+					 semper aperiam ad usu. Duo unum impedit legendos ad, vel impetus molestiae
+					 in. Eos consetetur disputando ut, in nibh mazim conceptam qui.
+        </span>
+      </p>
+
+			<p>
+        <img id="kleiner" src="images/kleiner.png" alt="kleiner"/>
 				<span>
           &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
 					nam no. Ad mei oportere complectitur, est semper regione ea, cu his labore
