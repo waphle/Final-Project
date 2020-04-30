@@ -67,7 +67,7 @@
 
     <footer id="indexFooter">
       <span>
-        Background image <a id="bckSrc" href="https://steamcommunity.com/market/listings/753/270010-Tree">source</a>
+        Background image <a id="bckSrc" href="https://steamcommunity.com/market/listings/753/383870-Firewatch%3A%20Night%20Tower">source</a>
       </span>
     </footer>
 
