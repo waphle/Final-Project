@@ -20,7 +20,7 @@ function testimonialsLink() {
   location.replace("testimonials.html")
 }
 function signinLink() {
-  location.replace("signin.html")
+  location.replace("signin.php")
 }
 function contactLink() {
   location.replace("contact.html")
