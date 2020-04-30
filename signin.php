@@ -17,15 +17,15 @@
 	<?php
 
 			if(isset($_SESSION["id"])){
+				
+				$username = $_SESSION["Username"]; 
 
-				$username = $_SESSION["Username"];
-
-				echo  "<div class='login'>$username <p>Logged In</p></div>" ;
+				echo  "$username <p>Logged In</p>" ;
 
 			}
 			else {
 
-				echo "<div class='login'><p> Not Logged In </p></div>";
+				echo "<p> Not Logged In </p>";
 
 			}
 	?>
@@ -62,7 +62,7 @@
 		
 		}else {
 		
-			echo '<div class="login"><form action="login.inc.php" method="post"><input type="text" name="emailUsername" placeholder="Username/E-mail..."><input type="password" name="password" placeholder="Password"><button type="submit" name="login">Login</button></form><a href="signup.php">Signup</a></div>';
+			echo '<div class="login"><form action="login.inc.php" method="post"><input type="text" name="emailUsername" placeholder="Username/E-mail..."><input type="password" name="password" placeholder="Password"><button type="submit" name="login-submit">Login</button></form>;<a href="signup.php">Signup</a></div>';
 		
 		}
 		?>

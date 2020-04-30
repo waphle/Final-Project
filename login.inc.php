@@ -1,74 +1,83 @@
 <?php
 
-require 'dbh.inc.php';
-
-$emailUsername = $_POST["emailUsername"];
-$password = $_POST["password"];
-
-if (empty(emailUsername) || empty(password)){
-
-	header("Location: signin.php?error=emptyfields");
-
-	exit();
-
-}
-else {
+if (isset($_POST['login-submit'])){
 	
-	$sql = "SELECT * FROM users WHERE UsernameUsers=? OR UserEmail=?;";
+	require 'dbh.inc.php';
 	
-	$statement = mysqli_stmt_init($conn);
+	$emailUsername = $_POST["emailUsername"];
+	$password = $_POST["password"];
 	
-	if(!mysqli_stmt_prepare($statement, $sql)){
+	if (empty(emailUsername) || empty(password)){
 	
-		header("Location: signin.php?error=sqlerror");
+		header("Location: signin.php?error=emptyfields");
 
 		exit();
 	
-	}else {
-	
-		mysqli_stmt_bind_param($statement, "ss", $emailUsername, $emailUsername);
+	}
+	else {
 		
-		mysqli_stmt_execute($statement);
-	
-		$result = mysqli_stmt_get_result($statement);
+		$sql = "SELECT * FROM users WHERE UsernameUsers=? OR UserEmail=?;";
 		
-		if ($row = mysqli_fetch_assoc($result)){
+		$statement = mysqli_stmt_init($conn);
 		
-			$checkPassword = password_verify($password, $row['UserPasswords']);
-			
-			if($checkPassword == false){
-			
-				header("Location: signin.php?error=wrongpassword");
-
-				exit();
-			
-			}
-			else if($checkPassword == true){
-			
-				session_start();
-				
-				$_SESSION['id'] = $row['UserIds'];
-				
-				$_SESSION['Username'] = $row['UsernameUsers'];
-				
-				header("Location: signin.php?login=success");
-
-				exit();
-			
-			}else{
-			
-				eader("Location: signin.php?error=wrongpassword");
-
-				exit();
-			
-			}
-		}else{
+		if(!mysqli_stmt_prepare($statement, $sql)){
 		
-			header("Location: signin.php?error=nouser");
+			header("Location: signin.php?error=sqlerror");
 
 			exit();
 		
+		}else {
+		
+			mysqli_stmt_bind_param($statement, "ss", $emailUsername, $emailUsername);
+			
+			mysqli_stmt_execute($statement);
+		
+			$result = mysqli_stmt_get_result($statement);
+			
+			if ($row = mysqli_fetch_assoc($result)){
+			
+				$checkPassword = password_verify($password, $row['UserPasswords']);
+				
+				if($checkPassword == false){
+				
+					header("Location: signin.php?error=wrongpassword");
+
+					exit();
+				
+				}
+				else if($checkPassword == true){
+				
+					session_start();
+					
+					$_SESSION['id'] = $row['UserIds'];
+					
+					$_SESSION['Username'] = $row['UsernameUsers'];
+					
+					header("Location: signin.php?login=success");
+
+					exit();
+				
+				}else{
+				
+					eader("Location: signin.php?error=wrongpassword");
+
+					exit();
+				
+				}
+			}else{
+			
+				header("Location: signin.php?error=nouser");
+
+				exit();
+			
+			}
+		
 		}
-	
 	}
+} else {
+	
+	header("Location: signin.php");
+
+	exit();
+
 }
