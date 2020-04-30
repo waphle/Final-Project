@@ -14,7 +14,7 @@
   </head>
 
   <body>
-  
+
 	<?php
 
 			if(isset($_SESSION["id"])){
@@ -28,9 +28,9 @@
 
 			}
 	?>
-  
+
     <h1 id="header"> <b> Testimonials </b> </h1>
-    <p id="headerDesc"> Desc. Text Here </p>
+    <p id="headerDesc"> Testimonials from users like you! </p>
 
     <div class="flexContainer">
       <div id="infoBox">
@@ -55,9 +55,30 @@
 
     <div class="testimonials">
       <p>
-        <img id="mainPageImg" src="https://i.imgur.com/6NYeSin.png" alt="mainPageImg"/>
+        <img id="tyler" src="images/Tyler1.png" alt="tyler"/>
         <span>
-          &nbsp;&nbsp;&nbsp;&nbsp;Testimonials insert here
+          &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
+					nam no. Ad mei oportere complectitur, est semper regione ea, cu his labore
+					 tacimates maiestatis. No vide mollis sea, ne has elit eligendi explicari.
+					 Est phaedrum quaerendum ei, solet vulputate ex ius, qui blandit perfecto
+					 consetetur et. Et modo stet facete mei, suas affert legere ne usu. Has eu
+					 sint instructior. Labore aliquip sed ea. Id mollis euismod invenire sit,
+					 semper aperiam ad usu. Duo unum impedit legendos ad, vel impetus molestiae
+					 in. Eos consetetur disputando ut, in nibh mazim conceptam qui.
+        </span>
+      </p>
+
+			<p>
+        <img id="jerma" src="images/Jerma.png" alt="jerma"/>
+				<span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
+					nam no. Ad mei oportere complectitur, est semper regione ea, cu his labore
+					 tacimates maiestatis. No vide mollis sea, ne has elit eligendi explicari.
+					 Est phaedrum quaerendum ei, solet vulputate ex ius, qui blandit perfecto
+					 consetetur et. Et modo stet facete mei, suas affert legere ne usu. Has eu
+					 sint instructior. Labore aliquip sed ea. Id mollis euismod invenire sit,
+					 semper aperiam ad usu. Duo unum impedit legendos ad, vel impetus molestiae
+					 in. Eos consetetur disputando ut, in nibh mazim conceptam qui.
         </span>
       </p>
     </div>

@@ -134,6 +134,7 @@
           minor criticism due to technical issues.
         </span>
       </p>
+			
 			<p id="tf2">
         <a href="https://store.steampowered.com/app/440/Team_Fortress_2/">
           <img id="tf2Image" src="images/TeamFortress2.png" alt="tf2Image"/>
