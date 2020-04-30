@@ -10,7 +10,7 @@
 }
 
 body {
-  background-image: url("images/background3.jpg");
+  background-image: url("images/background5.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -93,7 +93,7 @@ body {
 
 .aboutMe {
   display: block;
-  margin-top: 45px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 800px;
@@ -101,31 +101,29 @@ body {
   overflow: hidden;
   align-items: center;
   transition-duration: 0.7s;
+
+  /* background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  border-radius: 40px; */
 }
 
 .aboutMe img { /* Main page image */
   float: left;
   vertical-align: middle;
-  padding-right: 10px;
+  padding-right: 15px;
   width: 300px;
   height: 300px;
-  border-radius: 20px;
-
+  border-radius: 50px;
 }
 
-.aboutMe img:hover {
-  filter: brightness(80%);
-  cursor: pointer;
-  display: block;
-}
-
-.aboutMe span { /* Desc. box about me */
+.aboutMe span { /* Desc. box about website*/
   display: block;
   text-align: left;
   font-family: "Josefin Sans";
   font-size: 15pt;
   color: #E8DFDC;
-
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #demo {
@@ -189,7 +187,7 @@ body {
   padding-right: 10px;
   width: 300px;
   height: 300px;
-  border-radius: 20px;
+  border-radius: 50px;
 
 }
 
@@ -234,7 +232,7 @@ body {
   padding-right: 10px;
   width: 300px;
   height: 300px;
-  border-radius: 20px;
+  border-radius: 50px;
 
 }
 
