@@ -1,3 +1,23 @@
+<?php
+
+$error = $_GET['error'];
+
+if ($error=="emptyfields"){
+	
+	echo "<script type='text/javascript'>alert('Empty Fields');</script>";
+	
+}
+else if ($error=="invalidemailusername"){
+
+	echo "<script type='text/javascript'>alert('Invalid Username and Email');</script>";
+	
+}
+else if ($error=="invalidemail"){
+
+	echo "<script type='text/javascript'>alert('Invalid Email');</script>";
+
+}
+?>
 <!DOCTYPE html>
 
 <html lang = "en">
