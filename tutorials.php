@@ -18,15 +18,15 @@
 	<?php
 
 			if(isset($_SESSION["id"])){
-				
-				$username = $_SESSION["Username"]; 
 
-				echo  "$username <p>Logged In</p>" ;
+				$username = $_SESSION["Username"];
+
+				echo  "<div class="login">$username <p>Logged In</p></div>" ;
 
 			}
 			else {
 
-				echo "<p> Not Logged In </p>";
+				echo "<div class="login"><p> Not Logged In </p></div>";
 
 			}
 	?>
