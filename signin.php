@@ -17,8 +17,10 @@
 	<?php
 
 			if(isset($_SESSION["id"])){
+				
+				$username = $_SESSION["Username"]; 
 
-				echo "<p> Logged In</p>" ;
+				echo  "$username <p>Logged In</p>" ;
 
 			}
 			else {
