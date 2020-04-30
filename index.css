@@ -17,6 +17,22 @@ body {
   background-size: cover;
 }
 
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: #A2AAAC;
+}
+
+a:hover {
+  color: #75B7FA;
+}
+
+a:active{
+  color: red;
+}
+
 #header {
   font-family: "ETH";
   color: white !important;
@@ -181,12 +197,12 @@ body {
   transition-duration: 0.7s;
 }
 
-.tutorials img { /* Main page image */
+.tutorials img {
   float: left;
   vertical-align: middle;
   padding-right: 10px;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 50px;
 
 }
@@ -195,18 +211,19 @@ body {
   filter: brightness(80%);
   cursor: pointer;
   display: block;
+  transition: .3s ease;
 }
 
-.tutorials span { /* Desc. box about me */
+.tutorials span {
   display: block;
   text-align: left;
   font-family: "Josefin Sans";
-  font-size: 11.5pt;
+  font-size: 12.5pt;
   color: #E8DFDC;
 
 }
 
-/********** photography.html CSS **********/
+/********** testimonials.html CSS **********/
 #header {
   font-family: "ETH";
   color: black;
@@ -226,7 +243,7 @@ body {
   transition-duration: 0.7s;
 }
 
-.testimonials img { /* Main page image */
+.testimonials img {
   float: left;
   vertical-align: middle;
   padding-right: 10px;
@@ -242,7 +259,7 @@ body {
   display: block;
 }
 
-.testimonials span { /* Desc. box about me */
+.testimonials span {
   display: block;
   text-align: left;
   font-family: "Josefin Sans";
