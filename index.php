@@ -19,7 +19,7 @@
 
 			if(isset($_SESSION["id"])){
 
-				$username = $_SESSION["Username"]; 
+				$username = $_SESSION["Username"];
 
 				echo  "$username <p>Logged In</p>" ;
 
@@ -53,7 +53,7 @@
         </div>
 
         <div class="row" id="easterEgg">
-          <span><a href="https://www.youtube.com/watch?v=Nz1q4iJuBaE"> What's this? </a></span>
+          <span><a href="https://www.youtube.com/watch?v=PZ98kg043oE"> What's this? </a></span>
         </div>
 
       </div>
