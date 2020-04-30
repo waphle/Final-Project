@@ -4,14 +4,14 @@ $error = $_GET['error'];
 $signup = $_GET['signup'];
 
 if ($error=="emptyfields"){
-	
+
 	echo "<script type='text/javascript'>alert('Empty Fields');</script>";
-	
+
 }
 else if ($error=="invalidemailusername"){
 
 	echo "<script type='text/javascript'>alert('Invalid Username and Email');</script>";
-	
+
 }
 else if ($error=="invalidemail"){
 
@@ -45,18 +45,42 @@ else if ($signup=="success"){
 
 	<head>
 		<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
-		<title> User Sign-in/up | Epic Gaming Tutorials </title>
+		<title> User Sign-up | Epic Gaming Tutorials </title>
 		<link rel="stylesheet" type="text/css" href="index.css"/>
 		<link rel="icon" href="images/icon.png"/>
 		<script async src="script.js"></script>
 	</head>
-	<main>
+
+	<body>
 		<h1 id="header"> Signup</h1>
+		<p id="headerDesc"> Sign-up here boi. </p>
+
+    <div class="flexContainer">
+      <div id="infoBox">
+        <div class="row" id="home">
+          <span onClick="homeLink()"> Home </span>
+        </div>
+
+        <div class="row" id="tutorials">
+          <span onClick="tutorialLink()"> Tutorials </span>
+        </div>
+
+        <div class="row" id="testimonials">
+          <span onClick="testimonialsLink()"> Testimonials </span>
+        </div>
+
+				<div class="row" id="signin">
+          <span onClick="signinLink()"> Sign-in/up </span>
+        </div>
+
+      </div>
+    </div>
+
 		<form action="signup.inc.php" method="post">
 			<input type="text" name="username" placeholder="Username">
 			<input type="text" name="email" placeholder="E-mail">
 			<input type="password" name="password" placeholder="Password">
 			<button type="submit" name="signup">Signup</button>
 		</form>
-	</main>
+	</body>
 </html>
