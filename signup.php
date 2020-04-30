@@ -35,7 +35,7 @@ else if ($error=="usertaken"){
 }
 else if ($signup=="success"){
 
-	echo "<script type='text/javascript'>alert('Username Taken');</script>";
+	echo "<script type='text/javascript'>alert('Account Made');</script>";
 
 }
 ?>

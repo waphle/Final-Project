@@ -1,6 +1,37 @@
 <?php
 	session_start();
 ?>
+<?php
+
+$error = $_GET['error'];
+$login = $_GET['signup'];
+
+if ($error=="emptyfields"){
+	
+	echo "<script type='text/javascript'>alert('Empty Fields');</script>";
+	
+}
+else if ($error=="wrongpassword"){
+
+	echo "<script type='text/javascript'>alert('Wrong Password');</script>";
+
+}
+else if ($error=="nouser"){
+
+	echo "<script type='text/javascript'>alert('Invalid Username');</script>";
+
+}
+else if ($error=="sqlerror"){
+
+	echo "<script type='text/javascript'>alert('SQL Error');</script>";
+
+}
+else if ($login=="success"){
+
+	echo "<script type='text/javascript'>alert('Logged In');</script>";
+
+}
+?>
 <!DOCTYPE html>
 
 <html lang = "en">
