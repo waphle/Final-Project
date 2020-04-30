@@ -8,6 +8,11 @@ if ($login=="success"){
 	echo "<script type='text/javascript'>alert('Account Made');</script>";
 
 }
+else if ($login=="logout"){
+
+	echo "<script type='text/javascript'>alert('Logged Out');</script>";
+
+}
 ?>
 <!DOCTYPE html>
 
