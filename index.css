@@ -74,7 +74,9 @@ a:active{
 #infoBox {
   display: flex;
 }
-
+.login{
+	color: white;
+}
 .row {
   padding: 5px;
 }
