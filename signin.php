@@ -4,7 +4,7 @@
 <?php
 
 $error = $_GET['error'];
-$login = $_GET['signup'];
+$login = $_GET['login'];
 
 if ($error=="emptyfields"){
 	
