@@ -61,10 +61,6 @@ else if ($login=="logout"){
           <span onClick="signinLink()"> Sign-in/up </span>
         </div>
 
-        <div class="row" id="contact">
-          <span onClick="contactLink()"> Contact </span>
-        </div>
-
         <div class="row" id="easterEgg">
           <span><a href="https://www.youtube.com/watch?v=PZ98kg043oE"> What's this? </a></span>
         </div>
@@ -89,7 +85,7 @@ else if ($login=="logout"){
           has all the gaming help you need.
         </span>
         <span>
-          &nbsp;&nbsp;&nbsp;&nbsp;Feel free to join us today! Users get exclusive
+          &nbsp;&nbsp;&nbsp;&nbsp;Please join us today! Users get exclusive
           content and get to see admin posts days before the public does!
         </span>
       </p>

@@ -48,10 +48,6 @@
           <span onClick="signinLink()"> Sign-in/up </span>
         </div>
 
-        <div class="row" id="contact">
-          <span onClick="contactLink()"> Contact </span>
-        </div>
-
       </div>
     </div>
 
@@ -136,7 +132,7 @@
           minor criticism due to technical issues.
         </span>
       </p>
-			
+
 			<p id="tf2">
         <a href="https://store.steampowered.com/app/440/Team_Fortress_2/">
           <img id="tf2Image" src="images/TeamFortress2.png" alt="tf2Image"/>
