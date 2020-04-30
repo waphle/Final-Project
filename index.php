@@ -14,7 +14,7 @@
   </head>
 
   <body>
-	
+
 	<?php
 
 			if(isset($_SESSION["id"])){
@@ -28,9 +28,9 @@
 
 			}
 	?>
-  
+
     <h1 id="header"> <b> Epic Gaming Tutorials </b> </h1>
-    <p id="headerDesc"> GG no re knob </p>
+    <p id="headerDesc"> "GG no re knob" </p>
 
     <div class="flexContainer">
       <div id="infoBox">
