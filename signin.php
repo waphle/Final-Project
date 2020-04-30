@@ -22,8 +22,6 @@
 
 				echo  "$username <p>Logged In</p>" ;
 
-				echo "<p> Logged In</p>" ;
-
 			}
 			else {
 
