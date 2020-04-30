@@ -9,7 +9,7 @@ if (isset($_POST['login-submit'])){
 	
 	if (empty(emailUsername) || empty(password)){
 	
-		header("Location: signin.html?error=emptyfields");
+		header("Location: signin.php?error=emptyfields");
 
 		exit();
 	
@@ -22,7 +22,7 @@ if (isset($_POST['login-submit'])){
 		
 		if(!mysqli_stmt_prepare($statement, $sql)){
 		
-			header("Location: signin.html?error=sqlerror");
+			header("Location: signin.php?error=sqlerror");
 
 			exit();
 		
@@ -40,7 +40,7 @@ if (isset($_POST['login-submit'])){
 				
 				if($checkPassword == false){
 				
-					header("Location: signin.html?error=wrongpassword");
+					header("Location: signin.php?error=wrongpassword");
 
 					exit();
 				
@@ -53,20 +53,20 @@ if (isset($_POST['login-submit'])){
 					
 					$_SESSION['Username'] = $row['UsernameUsers'];
 					
-					header("Location: signin.html?login=success");
+					header("Location: signin.php?login=success");
 
 					exit();
 				
 				}else{
 				
-					eader("Location: signin.html?error=wrongpassword");
+					eader("Location: signin.php?error=wrongpassword");
 
 					exit();
 				
 				}
 			}else{
 			
-				header("Location: signin.html?error=nouser");
+				header("Location: signin.php?error=nouser");
 
 				exit();
 			
@@ -76,7 +76,7 @@ if (isset($_POST['login-submit'])){
 	}
 } else {
 	
-	header("Location: signin.html");
+	header("Location: signin.php");
 
 	exit();
 
