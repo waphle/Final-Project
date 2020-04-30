@@ -272,7 +272,9 @@ a:active{
   color: #E8DFDC;
 
 }
-
+.hidden {
+	display: none;
+}
 /********** login CSS **********/
 .logout	{
 	align-items: center;

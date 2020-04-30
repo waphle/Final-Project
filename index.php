@@ -37,7 +37,7 @@
     <div class="flexContainer">
       <div id="infoBox">
         <div class="row" id="tutorials">
-          <span onClick="tutorialLink()"> Tutorials </span>
+          <span id="temp" onClick="tutorialLink()"> Tutorials </span>
         </div>
 
         <div class="row" id="testimonials">

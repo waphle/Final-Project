@@ -71,7 +71,7 @@
         </span>
       </p>
 
-		<p id="2">
+		<p class="hidden" id="2">
         <img id="jerma" src="images/Jerma.png" alt="jerma"/>
 				<span>
           &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
@@ -85,7 +85,7 @@
         </span>
       </p>
 
-		<p id="3">
+		<p class="hidden" id="3">
         <img id="ninja" src="images/Ninja.png" alt="ninja"/>
 				<span>
           &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
@@ -99,7 +99,7 @@
         </span>
       </p>
 
-		<p id="4">
+		<p class="hidden" id="4">
         <img id="overwatch" src="images/Overwatch.png" alt="overwatch"/>
 				<span>
           &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
@@ -113,7 +113,7 @@
         </span>
       </p>
 
-		<p id="5">
+		<p class="hidden" id="5">
         <img id="vsauce" src="images/VSauce.png" alt="vsauce"/>
 				<span>
           &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
@@ -127,7 +127,7 @@
         </span>
       </p>
 
-		<p id="6">
+		<p class="hidden" id="6">
         <img id="kleiner" src="images/kleiner.png" alt="kleiner"/>
 				<span>
           &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
@@ -140,6 +140,7 @@
 					 in. Eos consetetur disputando ut, in nibh mazim conceptam qui.
         </span>
       </p>
+	  <button onClick="next()"> Next </button>
     </div>
 
   </body>
