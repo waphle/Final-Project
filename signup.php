@@ -1,6 +1,7 @@
 <?php
 
 $error = $_GET['error'];
+$signup = $_GET['signup'];
 
 if ($error=="emptyfields"){
 	
@@ -15,6 +16,26 @@ else if ($error=="invalidemailusername"){
 else if ($error=="invalidemail"){
 
 	echo "<script type='text/javascript'>alert('Invalid Email');</script>";
+
+}
+else if ($error=="invalidusername"){
+
+	echo "<script type='text/javascript'>alert('Invalid Username');</script>";
+
+}
+else if ($error=="sqlerror"){
+
+	echo "<script type='text/javascript'>alert('SQL Error');</script>";
+
+}
+else if ($error=="usertaken"){
+
+	echo "<script type='text/javascript'>alert('Username Taken');</script>";
+
+}
+else if ($signup=="success"){
+
+	echo "<script type='text/javascript'>alert('Username Taken');</script>";
 
 }
 ?>
