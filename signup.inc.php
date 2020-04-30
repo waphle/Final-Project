@@ -2,6 +2,29 @@
 
 if (isset($_POST['signup-submit'])){
 	
+	header("Location: signup.php?error=emptyfields");
+
+	exit();
+
+}
+else if (!filter_var($email,FILTER_VALIDATE_EMAIL) && !preg_match("/^[a-zA-Z0-9]*$/",$username)) {
+
+	header("Location: signup.php?error=invalidemailusername");
+
+	exit();
+
+}
+else if (!filter_var($email,FILTER_VALIDATE_EMAIL)) {
+
+	header("Location: signup.php?error=invalidemail");
+
+	exit();
+
+}
+else if (!preg_match("/^[a-zA-Z0-9]*$/",$username)) {
+
+	header("Location: signup.php?error=invalidusername&email=".$email);
+
 	require 'dbh.inc.php';
 	
 	$username = $_POST['username'];
@@ -12,6 +35,7 @@ if (isset($_POST['signup-submit'])){
 	if (empty($username) || empty($email) || empty($password) || empty($passwordcopy)){
 		
 		header("Location: signup.php?error=emptyfields&username=".$username."&email=".$email);
+
 
 		exit();
 	
