@@ -21,12 +21,12 @@
 
 				$username = $_SESSION["Username"];
 
-				echo  "<div class='login'>$username <p>Logged In</p></div>" ;
+				echo  "$username <p>Logged In</p>" ;
 
 			}
 			else {
 
-				echo "<div class='login'><p> Not Logged In </p></div>";
+				echo "<p> Not Logged In </p>";
 
 			}
 	?>
@@ -56,7 +56,7 @@
     </div>
 
     <div class="testimonials">
-	
+
       <p id="1">
         <img id="tyler" src="images/Tyler1.png" alt="tyler"/>
         <span>
@@ -68,6 +68,11 @@
 					 sint instructior. Labore aliquip sed ea. Id mollis euismod invenire sit,
 					 semper aperiam ad usu. Duo unum impedit legendos ad, vel impetus molestiae
 					 in. Eos consetetur disputando ut, in nibh mazim conceptam qui.
+        </span>
+				<span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
+					nam no. Ad mei oportere complectitur, est semper regione ea, cu his labore
+					 tacimates maiestatis. No vide mollis sea, ne has elit eligendi explicari.
         </span>
       </p>
 
@@ -83,6 +88,11 @@
 					 semper aperiam ad usu. Duo unum impedit legendos ad, vel impetus molestiae
 					 in. Eos consetetur disputando ut, in nibh mazim conceptam qui.
         </span>
+				<span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
+					nam no. Ad mei oportere complectitur, est semper regione ea, cu his labore
+					 tacimates maiestatis. No vide mollis sea, ne has elit eligendi explicari.
+        </span>
       </p>
 
 		<p class="hidden" id="3">
@@ -96,6 +106,11 @@
 					 sint instructior. Labore aliquip sed ea. Id mollis euismod invenire sit,
 					 semper aperiam ad usu. Duo unum impedit legendos ad, vel impetus molestiae
 					 in. Eos consetetur disputando ut, in nibh mazim conceptam qui.
+        </span>
+				<span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
+					nam no. Ad mei oportere complectitur, est semper regione ea, cu his labore
+					 tacimates maiestatis. No vide mollis sea, ne has elit eligendi explicari.
         </span>
       </p>
 
@@ -111,6 +126,11 @@
 					 semper aperiam ad usu. Duo unum impedit legendos ad, vel impetus molestiae
 					 in. Eos consetetur disputando ut, in nibh mazim conceptam qui.
         </span>
+				<span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
+					nam no. Ad mei oportere complectitur, est semper regione ea, cu his labore
+					 tacimates maiestatis. No vide mollis sea, ne has elit eligendi explicari.
+        </span>
       </p>
 
 		<p class="hidden" id="5">
@@ -124,6 +144,11 @@
 					 sint instructior. Labore aliquip sed ea. Id mollis euismod invenire sit,
 					 semper aperiam ad usu. Duo unum impedit legendos ad, vel impetus molestiae
 					 in. Eos consetetur disputando ut, in nibh mazim conceptam qui.
+        </span>
+				<span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
+					nam no. Ad mei oportere complectitur, est semper regione ea, cu his labore
+					 tacimates maiestatis. No vide mollis sea, ne has elit eligendi explicari.
         </span>
       </p>
 
@@ -139,8 +164,13 @@
 					 semper aperiam ad usu. Duo unum impedit legendos ad, vel impetus molestiae
 					 in. Eos consetetur disputando ut, in nibh mazim conceptam qui.
         </span>
+				<span>
+          &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, tota deserunt voluptatibus
+					nam no. Ad mei oportere complectitur, est semper regione ea, cu his labore
+					 tacimates maiestatis. No vide mollis sea, ne has elit eligendi explicari.
+        </span>
       </p>
-	  <button onClick="next()"> Next </button>
+	  <button id = "nextButton"onClick="next()"> Next </button>
     </div>
 
   </body>
