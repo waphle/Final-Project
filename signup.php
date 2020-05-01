@@ -52,7 +52,7 @@ else if ($signup=="success"){
 	</head>
 
 	<body>
-		<h1 id="header"> Sign-up< /h1>
+		<h1 id="header"> Sign-up </h1>
 		<p id="headerDesc"> Sign-up here boi. </p>
 
     <div class="flexContainer">
